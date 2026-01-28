@@ -1,0 +1,78 @@
+.card {
+  background: rgba(255,255,255,0.04);
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.imageWrapper {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+
+.badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #111111a6;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+.content {
+  padding: 20px;
+  color: white;
+}
+
+.meta {
+  font-size: 13px;
+  color: #aaa;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+img {
+  width: 40px;
+  margin-left: 10px;
+}
+
+.arrow {
+  background: #2F1D09;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 50%;
+  color: #FF6900;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card:hover .arrow {
+  background: #ff7a00;
+  color: white;
+}
