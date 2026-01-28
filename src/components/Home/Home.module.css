@@ -447,16 +447,7 @@
     position: relative;
     }
 
-    .latestSection::before {
-    content: "";
-    position: absolute;
-    left: 5px;
-    bottom: 20px;
-    width: 300px;
-    height: 700px;
-    background: radial-gradient(circle, rgba(255,106,0,0.35) 0%, transparent 70%);
-    filter: blur(80px);
-    }
+    
 
 
     .latestTitle {
@@ -575,15 +566,7 @@
     position: relative;
     }
 
-    .newsletterSection::before {
-    content: "";
-    position: absolute;
-    top: -150px;
-    width: 600px;
-    height: 400px;
-    background: radial-gradient(circle, rgba(255,106,0,0.2), transparent 70%);
-    filter: blur(80px);
-    }
+
 
 
     .newsletterBox {
